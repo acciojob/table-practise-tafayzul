@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+/* Requirement: Table, th, tr, and td must have a 1px solid black border */
+        table, th, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse; /* Optional: ensures borders are single lines */
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Requirement: The table must have a yellow background */
+        table {
+            background-color: yellow;
+            width: 300px;
+        }
+
+        /* Styling the header for bold appearance as seen in image */
+        th {
+            font-weight: bold;
+        }
